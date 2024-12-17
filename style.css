@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-block-size: 100vb;
+  align-content: center;
+  font-family: "Victor Mono", serif;
+}
+
+main {
+  inline-size: min(85%, 70rem);
+  margin-inline: auto;
+  text-align: center;
+
+}
+
+main,
+form {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  text-decoration: underline double;
+  color: plum;
+}
+
+.input-text {
+  inline-size: 100%;
+  min-block-size: 5rem;
+
+  font-family: inherit;
+  font-size: 2rem;
+  font-style: italic;
+  color: purple;
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.submit-btn,
+.reset-output {
+  inline-size: max-content;
+  border: none;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: purple;
+}
+
+hr {
+  border: 2px dashed purple;
+}
+
+.output-text {
+  border: 1px solid plum;
+  font-size: 2rem;
+  font-style: italic;
+  color: purple;
+  padding: 1rem;
+  text-align: start;
+  min-block-size: 5rem;
+}
+
